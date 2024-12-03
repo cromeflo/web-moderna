@@ -10,8 +10,9 @@
 
 **"La Web Moderna"** es un recurso diseñado para explorar los fundamentos y avances clave en el desarrollo de aplicaciones web. Abarca temas esenciales como HTML, CSS, JavaScript, frameworks modernos, diseño responsivo, optimización para motores de búsqueda (SEO) y mejores prácticas en desarrollo front-end y back-end. Este proyecto busca ser una guía práctica y conceptual para desarrolladores de todos los niveles que deseen crear experiencias web atractivas, funcionales y escalables.
 
-# Explicación del Código eslintrc JSON
+## eslintrc
 
+### El código
 ```json
 {
     "env": {
@@ -34,6 +35,7 @@
 }  
 ```
 
+### Explicación del código
 "env": {...}
 Define el entorno en el que se ejecutará el código.
 
@@ -57,6 +59,8 @@ Define reglas específicas para ESLint.
 "no-unused-vars": "warn": Advierte sobre variables declaradas que no se usan.
 "no-console": "warn": Advierte sobre el uso de console.log u otras funciones de consola.
 
+### Comentario del código
+eslintrc.json es exclusivamente para javascript, no es un lenguaje como tal sino una convención. Hay versiones pues se van actualizando y difieren con la anterior en nuevas reglas, criterios o prácticas cuyo fin es optimizar el código. En resumen, el archivo, lleva las reglas que aplicarán para los archivos js del proyecto y debe ir en la raíz de éste. Nosostros lo configuramos.
 
 ## Despliegue
 
